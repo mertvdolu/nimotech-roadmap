@@ -6,251 +6,277 @@
       "id": "P01",
       "title": "Kaynak devri",
       "status": "HAZIR",
-      "owner": "tasarimci",
+      "owner": "claude",
       "acceptance": "Claude A kaynak paketi ve bağımlılıkları, çalıştırma komutu, kullanılan paketler/varlık lisansları, mevcut çalışan/dummy özellik listesi; hesap erişimi olmadan açılır",
       "start_now": "A tasarımının gerekli bağımlılıklarıyla izole kaynak paketini ve lisans envanterini hazırla. İlk değişiklikten önce arşiv ve Git başlangıç kaydı al.",
       "missing": "Seçilen A yönü ve statik HTML/CSS/JS bilgisi aktarıldı; kaynak paketi ve işlevler uygulayıcı tarafından incelenecek.",
-      "unblock": "Kaynak teslimi ve bağımlılık kontrolü."
+      "unblock": "Kaynak teslimi ve bağımlılık kontrolü.",
+      "workstream": "tasarimci"
     },
     {
       "id": "P02",
       "title": "Seçilen tasarımı sabitleme",
       "status": "HAZIR",
-      "owner": "tasarimci",
+      "owner": "claude",
       "acceptance": "Tek site/panel yönü, mobil/masaüstü, eksik/hata/boş/yükleniyor durumları",
       "start_now": "Seçilen A görsel yönünü koruyarak mobil/masaüstü, boş, hata, yükleniyor ve başarı durumlarını tamamla.",
       "missing": "Sonradan gelecek logo ve gerçek görseller için değiştirilebilir alanlar kullan.",
-      "unblock": "Onaylı son içerikler."
+      "unblock": "Onaylı son içerikler.",
+      "workstream": "tasarimci"
     },
     {
       "id": "P03",
       "title": "Modüler içerik",
       "status": "KISMEN_BEKLIYOR",
-      "owner": "tasarimci",
+      "owner": "claude",
       "acceptance": "Logo, ürün, 5 yıl garanti, işlem listesi, foto/video, adres/saat alanları sonradan yönetilebilir",
       "start_now": "Logo, ürün, garanti, adımlar ve iletişim için merkezi içerik alanlarını oluştur; boş alanları zarifçe gizle veya taslak olarak işaretle.",
       "missing": "Onaylı logo/ticari unvan, ürün adı/teknik föy, garanti belgesi, işlem listesi ve iletişim bilgileri eksik.",
-      "unblock": "İlgili gerçek içeriklerin müşteri onayı."
+      "unblock": "İlgili gerçek içeriklerin müşteri onayı.",
+      "workstream": "tasarimci"
     },
     {
       "id": "P04",
       "title": "Servis sözleşmesi",
       "status": "HAZIR",
-      "owner": "manager",
+      "owner": "claude",
       "acceptance": "Form/panel/PDF/AI/bildirim alanları ve durumları ortak; hangi agent hangi dosyayı değiştirir net",
       "start_now": "Form, panel, talep, dosya, teklif, AI ve bildirim durumları için alanlar/yanıtlar/hatalar içeren servis sözleşmesi yaz.",
       "missing": "Kaynak incelemesine bağlı teknik kararlar açıkça öneri olarak tutulacak.",
-      "unblock": "Agentler arası sözleşme onayı."
+      "unblock": "Agentler arası sözleşme onayı.",
+      "workstream": "manager"
     },
     {
       "id": "P05",
       "title": "Ayrı kurulum/veri",
       "status": "HAZIR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Nimotech'e ayrılmış veri deposu; migration, ayar örneği, kurulum komutu, proje sahibinin hesabı olmadan tekrar kurulum",
       "start_now": "Müşteriye ayrı veri deposu, migration, boş ayar örneği ve tekrar kurulabilir çalışma ortamı hazırla.",
       "missing": "Yerel şema hazırlığı uygulamanın bağlandığı anlamına gelmez.",
-      "unblock": "Gerçek sunucu hesabı ve ortam kararı, üretim aşamasında."
+      "unblock": "Gerçek sunucu hesabı ve ortam kararı, üretim aşamasında.",
+      "workstream": "backend"
     },
     {
       "id": "P06",
       "title": "Gerçek admin yetkisi",
       "status": "HAZIR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Davetli personel erişimi, güvenli oturum, gerekli MFA, yetki kontrolü; anonim özel veri okuyamaz",
       "start_now": "Davetli personel, rol kontrolleri, oturum ve MFA akışını yerelde sentetik kullanıcılarla doğrula.",
       "missing": "Gerçek personel sayısı ve erişim listesi bekleniyor.",
-      "unblock": "Müşterinin yetkili personel listesi."
+      "unblock": "Müşterinin yetkili personel listesi.",
+      "workstream": "backend"
     },
     {
       "id": "P07",
       "title": "Kalıcı talepler",
       "status": "HAZIR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Zorunlu alanlar sunucuda denetlenir; kayıt yenilemeden sonra kalır; panelde doğru görünür; kesin randevu oluşmaz",
       "start_now": "Zorunlu alanlar, talep numarası, kalıcı kayıt ve panel liste/detay akışını örnek veriyle bağla.",
       "missing": "Fotoğraf, marka/model/yıl, ad, telefon, e-posta ve mat/şeffaf seçimi gerekir.",
-      "unblock": "P04/P05/P06/P08 teknik bağımlılıkları."
+      "unblock": "P04/P05/P06/P08 teknik bağımlılıkları.",
+      "workstream": "backend"
     },
     {
       "id": "P08",
       "title": "Özel fotoğraf deposu",
       "status": "HAZIR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Format/boyut/piksel kontrolü, metadata temizliği, anonim erişim engeli; yalnız yetkili erişim/paylaşım",
       "start_now": "Özel dosya deposu, dosya türü/boyutu/piksel kontrolü, metadata temizliği ve yetkili erişimi uygula.",
       "missing": "Gerçek müşteri fotoğrafları public depoya veya genel demo galerisine konmayacak.",
-      "unblock": "Üretimde saklama/silme süresi ve depolama hesabı."
+      "unblock": "Üretimde saklama/silme süresi ve depolama hesabı.",
+      "workstream": "backend"
     },
     {
       "id": "P09",
       "title": "Bot/kötüye kullanım",
       "status": "KISMEN_BEKLIYOR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Sunucu doğrulama, oran sınırı, mükerrer kayıt ve dosya kontrolü; sağlayıcılı bot kontrolü değiştirilebilir",
       "start_now": "Sunucu doğrulama, istek sınırı, dosya kontrolü ve mükerrer talep korumasını SMS olmadan uygula.",
       "missing": "SMS ayrı P25 görevidir ve askıdadır. Dış bot servisi kullanılırsa müşteri hesabıyla ayrıca bağlanır.",
-      "unblock": "Dış bot servisi kararı; SMS çekirdeği engellemez."
+      "unblock": "Dış bot servisi kararı; SMS çekirdeği engellemez.",
+      "workstream": "backend"
     },
     {
       "id": "P10",
       "title": "Personel paneli bağlantısı",
       "status": "HAZIR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Liste/detay/arama/durum/not/teklif ekranları gerçek API sonuçlarını gösterir; hata gizlenmez",
       "start_now": "Panel listesi/detayı, arama, durum, not ve teklif ekranlarını gerçek API adapterine bağla.",
       "missing": "Demo localStorage kalıcı gerçek backend sayılmaz.",
-      "unblock": "P04/P07 sözleşmesi ve kalıcı veri."
+      "unblock": "P04/P07 sözleşmesi ve kalıcı veri.",
+      "workstream": "backend"
     },
     {
       "id": "P11",
       "title": "Galeri",
       "status": "KISMEN_BEKLIYOR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Yetkili yükler/sıralar/kaldırır; yayınlanan içerik siteye yansır; talep fotoğrafları otomatik yayımlanmaz",
       "start_now": "Yetkili ekleme/sıralama/kaldırma/yayınlama akışını örnek ve yayın hakkı olan görsellerle kur.",
       "missing": "Gerçek uygulama görselleri henüz teslim edilmedi. Özel talep fotoğrafları otomatik yayımlanmaz.",
-      "unblock": "Gerçek görseller ve yayımlama onayı."
+      "unblock": "Gerçek görseller ve yayımlama onayı.",
+      "workstream": "backend"
     },
     {
       "id": "P12",
       "title": "AI iş akışı",
       "status": "KISMEN_BEKLIYOR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Personel başlatır; maliyet sınırı, tek iş/tekrar kontrolü, başarısız/belirsiz iş takibi; sonuç personelce onaylanır",
       "start_now": "Higgsfield API adapteri, sunucu secret yapılandırması, iş durumları, maliyet sınırı ve tekrar/belirsiz sonuç kontrollerini hazırla. Proje sahibinin Higgsfield API anahtarı geliştirmede geçici kullanılabilir; mevcut izin anahtarın alındığı veya bağlantının kurulduğu anlamına gelmez.",
       "missing": "Gerçek resmî API erişimi, ücretlendirme ve üretim/tekrar sınırı henüz doğrulanmadı. Anahtar public kod/issue/sohbet/loga yazılmaz; kişisel browser/CLI oturumu kullanılmaz. Diğer hesaplar için eski mülkiyet kuralı sürer.",
-      "unblock": "Geliştirme: güvenli sunucu secret girişi, API erişimi ve limitlerin doğrulanması. Teslim: müşteri anahtarıyla değiştirme ve eski anahtar olmadan çalışma testi; nihai müşteri hesabı gelene kadar adapter/test işleri beklemez."
+      "unblock": "Geliştirme: güvenli sunucu secret girişi, API erişimi ve limitlerin doğrulanması. Teslim: müşteri anahtarıyla değiştirme ve eski anahtar olmadan çalışma testi; nihai müşteri hesabı gelene kadar adapter/test işleri beklemez.",
+      "workstream": "backend"
     },
     {
       "id": "P13",
       "title": "Teklif verisi",
       "status": "HAZIR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Personelin tutarı/kapsamı, sürüm/onay, geçerlilik/koşul alanları; AI fiyat uyduramaz",
       "start_now": "Personelin tutar/kapsam girdiği, sürümlenen ve onay durumları ayrılmış teklif kaydını oluştur.",
       "missing": "Sabit fiyat yok; tutarı AI belirlemez.",
-      "unblock": "Geçerlilik, vergi ve ödeme koşulları gerçek sürümde müşteriden gelecek."
+      "unblock": "Geçerlilik, vergi ve ödeme koşulları gerçek sürümde müşteriden gelecek.",
+      "workstream": "backend"
     },
     {
       "id": "P14",
       "title": "Gerçek PDF çıktısı",
       "status": "KISMEN_BEKLIYOR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Sunucu şablonu/görsellerden indirilebilir, Türkçe karakterli, taşmayan kişisel PDF; örnek belge yer tutucuları açık; özel erişim",
       "start_now": "Örnek bilgilerle gerçek indirilebilir PDF motorunu ve görsel şablonu kur; Türkçe karakter ve sayfa taşmasını kontrol et.",
       "missing": "Logo, ürün, hazırlık işlemleri ve garanti belgeleri eksik; bu kısımlar sonradan doldurulur.",
-      "unblock": "Gerçek içerik gelince son PDF içerik kabulü."
+      "unblock": "Gerçek içerik gelince son PDF içerik kabulü.",
+      "workstream": "backend"
     },
     {
       "id": "P15",
       "title": "Bildirim kuyruğu",
       "status": "HAZIR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Kayıttan sonra işler; tek talep için istenmeyen çift bildirim yok; hata/tekrar deneme kaydı",
       "start_now": "Talep kaydı sonrası bildirim kuyruğu, hatalar, tekrar deneme ve mükerrer gönderim kontrolünü sahte sağlayıcıyla doğrula.",
       "missing": "Gerçek e-posta/WhatsApp hesabı olmadan iş kuyruğu test edilebilir.",
-      "unblock": "Gerçek gönderim P16/P17 ile ayrıca açılır."
+      "unblock": "Gerçek gönderim P16/P17 ile ayrıca açılır.",
+      "workstream": "backend"
     },
     {
       "id": "P16",
       "title": "E-posta bağlantısı",
       "status": "KISMEN_BEKLIYOR",
-      "owner": "manager",
+      "owner": "claude",
       "acceptance": "Müşteri alan adı ve göndereni; teslim durumları doğru; başka adrese yanlış içerik gönderilmez",
       "start_now": "E-posta adapterini, şablonları ve hata/durum takibini test sağlayıcısıyla hazırla.",
       "missing": "Bildirim adresi, gönderen ve müşteri hesabı henüz yok.",
-      "unblock": "Müşteri e-posta hesabı, gönderen/domain doğrulaması ve gerçek test."
+      "unblock": "Müşteri e-posta hesabı, gönderen/domain doğrulaması ve gerçek test.",
+      "workstream": "manager"
     },
     {
       "id": "P17",
       "title": "WhatsApp bağlantısı",
       "status": "KISMEN_BEKLIYOR",
-      "owner": "manager",
+      "owner": "claude",
       "acceptance": "Müşterinin hattı, aynı telefondaki Business kullanımını koruyacak resmî yöntem doğrulanır; bildirim alıcısı net",
       "start_now": "WhatsApp bildirim ve paylaşım ekranlarını/adapter sözleşmesini test sağlayıcısıyla hazırla.",
       "missing": "Hat bilgisi ve aynı telefondaki WhatsApp Business kullanımını koruyacak resmî yöntem doğrulanacak.",
-      "unblock": "Müşterinin WhatsApp hattı/hesabı ve sağlayıcı uygunluğu."
+      "unblock": "Müşterinin WhatsApp hattı/hesabı ve sağlayıcı uygunluğu.",
+      "workstream": "manager"
     },
     {
       "id": "P18",
       "title": "Ürün/garanti/işlem içeriği",
       "status": "BEKLIYOR",
-      "owner": "tasarimci",
+      "owner": "claude",
       "acceptance": "Onaylı ürün ve garanti belgeleri, dahil/ek hizmetler, gerçek görseller; hayali iddia yok",
       "start_now": "İçerik modelini ve belge/görsel alanlarını hazır tut; gelen her içerik için onay ve sürüm kaydı düşün.",
       "missing": "Logo, ürün teknik/lisans belgeleri, garanti kapsamı, hazırlık/ek hizmetler ve gerçek görseller bekleniyor.",
-      "unblock": "Müşteri dosyalarının teslimi; adımlar için bildirilen gün 2 Kasım 2026, teslim tarihi değil."
+      "unblock": "Müşteri dosyalarının teslimi; adımlar için bildirilen gün 2 Kasım 2026, teslim tarihi değil.",
+      "workstream": "tasarimci"
     },
     {
       "id": "P19",
       "title": "QR",
       "status": "BEKLIYOR",
-      "owner": "manager",
+      "owner": "claude",
       "acceptance": "Ürün belgesi mi araç garantisi mi seçilir; gerçek hedefe açılır; özel veri herkese açılmaz",
       "start_now": "QR hedefi türünü belirleyecek alanları ve doğrulama akışı taslağını hazırla.",
       "missing": "Ürün belgesi mi araca özel garanti mi açacağı kararlaştırılmadı. Sahte QR üretilmez.",
-      "unblock": "Gerçek belge/hedef URL ve erişim kararı."
+      "unblock": "Gerçek belge/hedef URL ve erişim kararı.",
+      "workstream": "manager"
     },
     {
       "id": "P20",
       "title": "Domain/HTTPS/yayın",
       "status": "KISMEN_BEKLIYOR",
-      "owner": "manager",
+      "owner": "claude",
       "acceptance": "Müşteri mülkiyetindeki hosting ve domain; ortam ayarları, yedek/geri alma; domain değişimi uygulama kodu istemez",
       "start_now": "URL/callback/webhook yapılandırmasını taşınabilir hazırla; geçici adresten mevcut müşteri domainine geçişi dokümante et.",
       "missing": "Domain mevcut; yeni domain satın alma görevi yok. Domain/DNS erişimi sonra sağlanacak. İlk staging P24 ile yapılabilir.",
-      "unblock": "Mevcut müşteri domaininin erişimi ve son yayın kabulü."
+      "unblock": "Mevcut müşteri domaininin erişimi ve son yayın kabulü.",
+      "workstream": "manager"
     },
     {
       "id": "P21",
       "title": "Kalite/kabul",
       "status": "HAZIR",
-      "owner": "backend",
+      "owner": "claude",
       "acceptance": "Form→kayıt→panel→onaylı PDF; farklı cihaz; yetkisiz erişim; bozuk dosya; tekrar tıklama; sağlayıcı hatası; mobil kontrol",
       "start_now": "Formdan panel/PDF akışına, yetkisiz erişime, hatalı dosyaya ve tekrar tıklamaya anlamlı testler yaz; mobil/masaüstü kontrol et.",
       "missing": "Her küçük iş doğrulanır; sahte sağlayıcı sonucu gerçek teslim/AI kanıtı değildir.",
-      "unblock": "Tam kabul gerçek entegrasyonlar sonrası."
+      "unblock": "Tam kabul gerçek entegrasyonlar sonrası.",
+      "workstream": "backend"
     },
     {
       "id": "P22",
       "title": "Devir provası",
       "status": "KISMEN_BEKLIYOR",
-      "owner": "manager",
+      "owner": "claude",
       "acceptance": "Temiz ortamda kurulum + veri/dosya geri yükleme + yeni müşteri anahtarları; proje sahibinin oturumu kapalıyken çalışma",
       "start_now": "İkinci temiz yerel ortamda migration, veri/dosya yedeği ve geri yükleme provası yap.",
       "missing": "Yerel prova şimdi yapılabilir. Müşteri hesabı ve sunucusundaki nihai devir ayrıca gerekir.",
-      "unblock": "Müşteri ortamı ve gerçek hesaplarla son kabul."
+      "unblock": "Müşteri ortamı ve gerçek hesaplarla son kabul.",
+      "workstream": "manager"
     },
     {
       "id": "P23",
       "title": "Doküman/teslim",
       "status": "HAZIR",
-      "owner": "manager",
+      "owner": "claude",
       "acceptance": "Kaynak Git geçmişi, bağımlılıklar/lisanslar, kurulum/işletim/yedek dokümanı, personel kullanım kılavuzu, eksiklerin listesi",
       "start_now": "Kaynak envanteri, Git geçmişi, paket/lisans listesi, kurulum/işletim/yedek ve personel kılavuzunu tut.",
       "missing": "Gizli anahtarlar, özel dosyalar ve kişisel bilgisayar yolları public belgelerde bulunmayacak.",
-      "unblock": "Her işin gerçek test ve eksik durum raporu."
+      "unblock": "Her işin gerçek test ve eksik durum raporu.",
+      "workstream": "manager"
     },
     {
       "id": "P24",
       "title": "Ücretsiz geçici hosting ve sağlayıcı alt alan adı",
       "status": "KISMEN_BEKLIYOR",
-      "owner": "manager",
+      "owner": "claude",
       "acceptance": "Sentetik verili A tasarımı ücretsiz planın geçici HTTPS adresinde açılır; eksik backend servisleri açıkça belirtilir; deployment/geri alma/taşıma adımları belgelenir.",
       "start_now": "Deploy edilecek güvenli statik çıktı paketini, yol/yönlendirme kontrollerini ve deployment tarifini hazırla. Mevcut müşteri domainini bekleme.",
       "missing": "Sağlayıcı hesabının mülkiyeti ve yetkili erişimi netleşmeli. Ücretsiz planın sınırları kontrol edilecek. Site kaynakları ve yayımlanacak güvenli paket henüz manager tarafından incelenmedi.",
-      "unblock": "Müşteri mülkiyetinde ya da açıkça ayrı proje mülkiyetinde hosting hesabı erişimi ve doğrulanmış yayın paketi. Kişisel/VELIOFLOW hesabı kendiliğinden seçilmez."
+      "unblock": "Müşteri mülkiyetinde ya da açıkça ayrı proje mülkiyetinde hosting hesabı erişimi ve doğrulanmış yayın paketi. Kişisel/VELIOFLOW hesabı kendiliğinden seçilmez.",
+      "workstream": "manager"
     },
     {
       "id": "P25",
       "title": "SMS doğrulama — Türk numarası alınıncaya kadar askıda",
       "status": "BEKLIYOR",
-      "owner": "manager",
+      "owner": "claude",
       "acceptance": "Numara satın alındıktan ve sağlayıcı erişimi doğrulandıktan sonra OTP gönderim/doğrulama, süre, deneme sınırı, yeniden gönderim aralığı ve maliyet limiti test edilir.",
       "start_now": "OTP arayüzü ve sağlayıcı sözleşmesini sahte göndericiyle tasarlamak mümkün; ana form ve bot koruması SMS beklemeden geliştirilecek.",
       "missing": "Türk numarası henüz satın alınmadı. Gerçek SMS sağlayıcısı/hesabı ve maliyet onayı yok.",
-      "unblock": "Proje sahibinin numaranın alındığını bildirmesi, müşteri mülkiyetindeki sağlayıcı kurulumu ve gerekli gönderici uygunluklarının doğrulanması. Numara alımı tek başına çalışan OTP demek değildir."
+      "unblock": "Proje sahibinin numaranın alındığını bildirmesi, müşteri mülkiyetindeki sağlayıcı kurulumu ve gerekli gönderici uygunluklarının doğrulanması. Numara alımı tek başına çalışan OTP demek değildir.",
+      "workstream": "manager"
     }
-  ]
+  ],
+  "responsibility_note": "Tüm uygulama işleri Claude sorumluluğunda. Codex manager koordinasyon ve sonuç incelemesinde; paralel uygulama geliştirmez. Owner bir GitHub kullanıcı ataması değildir."
 }

@@ -1,5 +1,7 @@
 # GitHub görev bağlantıları
 
+Güncel uygulama sorumlusu bütün görevler için Claude. Eski issue gövdelerindeki tasarımcı/backend/manager ayrımı güncel görevlendirme değildir; CLAUDE-DEVIR.md ve ROADMAP.md önceliklidir. Bu bir GitHub kullanıcı ataması değildir.
+
 Her görevde şimdi yapılacak iş, eksik girdi ve kabul ölçütü ayrı yazılmıştır.
 
 | Görev | Issue |
