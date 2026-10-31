@@ -1,0 +1,10 @@
+# This public repository contains documentation only.
+.env*
+!.env.example
+*.pem
+*.key
+*.sqlite*
+*.db
+node_modules/
+.runtime/
+.DS_Store
