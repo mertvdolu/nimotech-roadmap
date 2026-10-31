@@ -14,6 +14,7 @@ Güncelleme: 31 Ekim 2026. Bu public depo, yapılacak işlerin ve bekleyen girdi
 
 ## Belgeler
 
+- [GitHub görev bağlantıları](ISSUES.md)
 - [Tüm görevler ve kabul ölçütleri](ROADMAP.md)
 - [Eksik girdiler ve beklemeden yapılacaklar](BEKLEYEN-GIRDILER.md)
 - [Bu akşamın öncelikleri](BU-AKSAM.md)
