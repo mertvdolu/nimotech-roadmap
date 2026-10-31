@@ -118,9 +118,9 @@
       "status": "KISMEN_BEKLIYOR",
       "owner": "backend",
       "acceptance": "Personel başlatır; maliyet sınırı, tek iş/tekrar kontrolü, başarısız/belirsiz iş takibi; sonuç personelce onaylanır",
-      "start_now": "AI adapteri, iş durumları, maliyet sınırı, tekrar/belirsiz sonuç kontrollerini sahte sağlayıcıyla test et.",
-      "missing": "Üretim hesabı, resmî API erişimi ve bütçe/tekrar sınırı netleşmedi. Kişisel browser/CLI oturumu kullanılmaz.",
-      "unblock": "Müşteriye ait AI hesabı, erişim ve limitler."
+      "start_now": "Higgsfield API adapteri, sunucu secret yapılandırması, iş durumları, maliyet sınırı ve tekrar/belirsiz sonuç kontrollerini hazırla. Proje sahibinin Higgsfield API anahtarı geliştirmede geçici kullanılabilir; mevcut izin anahtarın alındığı veya bağlantının kurulduğu anlamına gelmez.",
+      "missing": "Gerçek resmî API erişimi, ücretlendirme ve üretim/tekrar sınırı henüz doğrulanmadı. Anahtar public kod/issue/sohbet/loga yazılmaz; kişisel browser/CLI oturumu kullanılmaz. Diğer hesaplar için eski mülkiyet kuralı sürer.",
+      "unblock": "Geliştirme: güvenli sunucu secret girişi, API erişimi ve limitlerin doğrulanması. Teslim: müşteri anahtarıyla değiştirme ve eski anahtar olmadan çalışma testi; nihai müşteri hesabı gelene kadar adapter/test işleri beklemez."
     },
     {
       "id": "P13",

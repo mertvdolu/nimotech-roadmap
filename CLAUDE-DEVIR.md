@@ -1,5 +1,11 @@
 # Claude / tasarımcı agentine güncel görev
 
+## Güncel istisna — geçici Higgsfield API erişimi
+
+31 Ekim 2026: Proje sahibi, geliştirme aşamasında kendi Higgsfield API anahtarının geçici kullanımına izin verdi. Bu yalnız Higgsfield API için istisnadır; diğer kişisel/VELIOFLOW hesaplarına bağlantı izni değildir. Anahtar sunucu tarafı secret yapılandırmasında tutulur; browser kodu, public depo/issue, sohbet, log veya PDF içine yazılmaz. Kişisel browser/CLI oturumu kullanılmaz.
+
+Hesap/anahtar sağlayıcı adapterinden ve uygulama kodundan ayrılacak. Teslimde müşterinin anahtarıyla değiştirilecek ve uygulamanın eski anahtar olmadan çalıştığı doğrulanacak. Resmî API erişimi, ücretlendirme ve üretim/tekrar limitleri ayrıca kontrol edilecek; bu izin sınırsız harcama veya otomatik yeniden üretim anlamına gelmez. Bu kayıtta anahtar alınmadı, bağlantı kurulmadı ve ücretli üretim başlatılmadı.
+
 Bu depodaki README, ROADMAP ve BEKLEYEN-GIRDILER belgelerini oku. Proje sahibi A yönünü seçti: koyu/sinematik tasarımı koru. Üç yeni demo üretme.
 
 Amaç: eksik müşteri bilgileri gelmeden başlanabilir işleri ilerletmek. Logo/ürün/garanti/telefon/domain eksikliği çekirdek tasarımı ve backend hazırlığını durdurmasın. Bu belge bir plan deposudur; ayrı uygulama kodunun varlığını veya gerçek servis bağlantılarını varsayma.

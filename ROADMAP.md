@@ -1,5 +1,11 @@
 # Tüm yapılacaklar
 
+## Güncel istisna — geçici Higgsfield API erişimi
+
+31 Ekim 2026: Proje sahibi, geliştirme aşamasında kendi Higgsfield API anahtarının geçici kullanımına izin verdi. Bu yalnız Higgsfield API için istisnadır; diğer kişisel/VELIOFLOW hesaplarına bağlantı izni değildir. Anahtar sunucu tarafı secret yapılandırmasında tutulur; browser kodu, public depo/issue, sohbet, log veya PDF içine yazılmaz. Kişisel browser/CLI oturumu kullanılmaz.
+
+Hesap/anahtar sağlayıcı adapterinden ve uygulama kodundan ayrılacak. Teslimde müşterinin anahtarıyla değiştirilecek ve uygulamanın eski anahtar olmadan çalıştığı doğrulanacak. Resmî API erişimi, ücretlendirme ve üretim/tekrar limitleri ayrıca kontrol edilecek; bu izin sınırsız harcama veya otomatik yeniden üretim anlamına gelmez. Bu kayıtta anahtar alınmadı, bağlantı kurulmadı ve ücretli üretim başlatılmadı.
+
 Durumlar başlangıç planıdır; tamamlanma iddiası yoktur. Eksik girdi tüm işi durdurmaz.
 
 | ID | İş | Durum | Önerilen sorumlu |
@@ -180,11 +186,11 @@ Durumlar başlangıç planıdır; tamamlanma iddiası yoktur. Eksik girdi tüm i
 
 **Kabul ölçütü:** Personel başlatır; maliyet sınırı, tek iş/tekrar kontrolü, başarısız/belirsiz iş takibi; sonuç personelce onaylanır
 
-**Şimdi yapılacak:** AI adapteri, iş durumları, maliyet sınırı, tekrar/belirsiz sonuç kontrollerini sahte sağlayıcıyla test et.
+**Şimdi yapılacak:** Higgsfield API adapteri, sunucu secret yapılandırması, iş durumları, maliyet sınırı ve tekrar/belirsiz sonuç kontrollerini hazırla. Proje sahibinin Higgsfield API anahtarı geliştirmede geçici kullanılabilir; mevcut izin anahtarın alındığı veya bağlantının kurulduğu anlamına gelmez.
 
-**Eksik / sınır:** Üretim hesabı, resmî API erişimi ve bütçe/tekrar sınırı netleşmedi. Kişisel browser/CLI oturumu kullanılmaz.
+**Eksik / sınır:** Gerçek resmî API erişimi, ücretlendirme ve üretim/tekrar sınırı henüz doğrulanmadı. Anahtar public kod/issue/sohbet/loga yazılmaz; kişisel browser/CLI oturumu kullanılmaz. Diğer hesaplar için eski mülkiyet kuralı sürer.
 
-**Tam kapanış / bağımlılık:** Müşteriye ait AI hesabı, erişim ve limitler.
+**Tam kapanış / bağımlılık:** Geliştirme: güvenli sunucu secret girişi, API erişimi ve limitlerin doğrulanması. Teslim: müşteri anahtarıyla değiştirme ve eski anahtar olmadan çalışma testi; nihai müşteri hesabı gelene kadar adapter/test işleri beklemez.
 
 ## P13
 ### Teklif verisi

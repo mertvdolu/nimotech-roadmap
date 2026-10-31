@@ -1,5 +1,11 @@
 # Ücretsiz geçici hosting ve sonradan devir
 
+## Güncel istisna — geçici Higgsfield API erişimi
+
+31 Ekim 2026: Proje sahibi, geliştirme aşamasında kendi Higgsfield API anahtarının geçici kullanımına izin verdi. Bu yalnız Higgsfield API için istisnadır; diğer kişisel/VELIOFLOW hesaplarına bağlantı izni değildir. Anahtar sunucu tarafı secret yapılandırmasında tutulur; browser kodu, public depo/issue, sohbet, log veya PDF içine yazılmaz. Kişisel browser/CLI oturumu kullanılmaz.
+
+Hesap/anahtar sağlayıcı adapterinden ve uygulama kodundan ayrılacak. Teslimde müşterinin anahtarıyla değiştirilecek ve uygulamanın eski anahtar olmadan çalıştığı doğrulanacak. Resmî API erişimi, ücretlendirme ve üretim/tekrar limitleri ayrıca kontrol edilecek; bu izin sınırsız harcama veya otomatik yeniden üretim anlamına gelmez. Bu kayıtta anahtar alınmadı, bağlantı kurulmadı ve ücretli üretim başlatılmadı.
+
 ## Karar
 
 Önce ücretsiz planın verdiği geçici adresle geliştirme/inceleme, sonra müşterinin zaten mevcut domainine geçiş. Domain beklemek kod ve önizleme hazırlığını durdurmaz. Ücretsiz geçici hosting, kalıcı üretim altyapısının ve tüm backend servislerinin ücretsiz olacağı taahhüdü değildir.

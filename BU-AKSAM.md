@@ -1,5 +1,11 @@
 # Bu akşam için uygulama sırası
 
+## Güncel istisna — geçici Higgsfield API erişimi
+
+31 Ekim 2026: Proje sahibi, geliştirme aşamasında kendi Higgsfield API anahtarının geçici kullanımına izin verdi. Bu yalnız Higgsfield API için istisnadır; diğer kişisel/VELIOFLOW hesaplarına bağlantı izni değildir. Anahtar sunucu tarafı secret yapılandırmasında tutulur; browser kodu, public depo/issue, sohbet, log veya PDF içine yazılmaz. Kişisel browser/CLI oturumu kullanılmaz.
+
+Hesap/anahtar sağlayıcı adapterinden ve uygulama kodundan ayrılacak. Teslimde müşterinin anahtarıyla değiştirilecek ve uygulamanın eski anahtar olmadan çalıştığı doğrulanacak. Resmî API erişimi, ücretlendirme ve üretim/tekrar limitleri ayrıca kontrol edilecek; bu izin sınırsız harcama veya otomatik yeniden üretim anlamına gelmez. Bu kayıtta anahtar alınmadı, bağlantı kurulmadı ve ücretli üretim başlatılmadı.
+
 Kaynak/erişim durumuna göre hedeflerdir; aynı akşam tamamlanma garantisi değildir. İçerik bekleyen işler çekirdek geliştirmeyi durdurmaz.
 
 1. **A kaynak paketini güvenli devral:** bağımlılıklar, göreli yollar, lisanslar, gerçekten çalışan/demo özellik envanteri; değişiklikten önce arşiv ve Git başlangıcı.
